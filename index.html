@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="shortcut icon" href="./assets/img/svg/logo.svg" type="image/svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <main class="main">
+      <aside class="sidebar">
+        <div class="logo">
+          <a href="#" class="logo__link">
+            <img src="./assets/img/svg/logo.svg" class="logo__img" alt="Logo Company">
+          </a>
+        </div>
+        <nav class="nav">
+          <input type="checkbox" class="nav__arrow arrow" id="nav-arrow" hidden>
+          <label for="nav-arrow" class="arrow__img">
+            <svg class="nav__icon" width="20" height="20">
+              <use href="./assets/img/sprite/sprite.svg#arrow"></use>
+            </svg>
+          </label>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <svg class="menu__icon" width="32" height="32">
+                  <use href="./assets/img/sprite/sprite.svg#dashboard"></use>
+                </svg>
+                <p class="menu__title">Dashboard</p>
+              </a>
+              <span class="menu__divider"></span>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <div class="menu__icon-wrapper green" data-count="25">
+                  <svg class="menu__icon" width="32" height="32">
+                    <use href="./assets/img/sprite/sprite.svg#email"></use>
+                  </svg>
+                </div>
+                <p class="menu__title">Email</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <div class="menu__icon-wrapper red" data-count="10">
+                  <svg class="menu__icon" width="32" height="32">
+                    <use href="./assets/img/sprite/sprite.svg#chats"></use>
+                  </svg>
+                </div>
+                <p class="menu__title">Chats</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <div class="menu__icon-wrapper yellow" data-count="5">
+                  <svg class="menu__icon" width="32" height="32">
+                    <use href="./assets/img/sprite/sprite.svg#calendar"></use>
+                  </svg>
+                </div>
+                <p class="menu__title">Calendar</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <div class="menu__icon-wrapper" data-count="0">
+                  <svg class="menu__icon" width="32" height="32">
+                    <use href="./assets/img/sprite/sprite.svg#news"></use>
+                  </svg>
+                </div>
+                <p class="menu__title">News</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <div class="menu__icon-wrapper" data-count="0">
+                  <svg class="menu__icon" width="32" height="32">
+                    <use href="./assets/img/sprite/sprite.svg#knowledge"></use>
+                  </svg>
+                </div>
+                <p class="menu__title">Knowledge</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <div class="menu__icon-wrapper" data-count="0">
+                  <svg class="menu__icon" width="32" height="32">
+                    <use href="./assets/img/sprite/sprite.svg#file-manager"></use>
+                  </svg>
+                </div>
+                <p class="menu__title">File manager</p>
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                <div class="menu__icon-wrapper" data-count="0">
+                  <svg class="menu__icon" width="32" height="32">
+                    <use href="./assets/img/sprite/sprite.svg#leaflet-maps"></use>
+                  </svg>
+                </div>
+                <p class="menu__title">Leaflet Maps</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+    </aside>
+    <div class="content"></div>
+    </main>
+</body>
+</html>
